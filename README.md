@@ -1,7 +1,7 @@
 # 3D Golf Game : First DirectX Project
 
 ## 🎥 Gameplay Video
-[Watch Demo Video](https://youtu.be/KZg-dTveTAg)
+[Watch Demo Video](https://youtu.be/_thLXrpSByE)
 
 ---
 

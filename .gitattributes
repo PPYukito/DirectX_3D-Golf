@@ -1,0 +1,50 @@
+# 1. Set default behavior to auto-detect text files and normalize line endings
+* text=auto
+
+# 2. Explicitly mark source code files as text and normalize to native endings
+*.cpp text
+*.h text
+*.hpp text
+*.inl text
+
+# 3. Handle HLSL Shader files as text
+*.hlsl text
+*.fx text
+*.hlsli text
+
+# 4. Force Visual Studio project files to use Windows CRLF line endings
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.props text eol=crlf
+
+# 5. Explicitly treat assets and compiled shader binaries as binary files
+# (This prevents Git from attempting to line-normalize or auto-merge them)
+*.cso binary
+*.dds binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.bmp binary
+*.ico binary
+*.fbx binary
+*.obj binary
+*.dae binary
+
+# 6. Treat precompiled headers and library assets as binary
+*.pch binary
+*.lib binary
+*.dll binary
+
+# Audio
+*.wav binary
+*.mp3 binary
+
+# Other images
+*.webp binary
+*.avif binary
+
+# 3D source / scene files
+*.blend binary
+*.glb binary
